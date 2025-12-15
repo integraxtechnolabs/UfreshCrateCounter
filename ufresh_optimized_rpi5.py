@@ -14,8 +14,8 @@ from collections import deque
 import numpy as np
 
 # ----------------- YOLO + ByteTrack Setup -----------------
-model = YOLO("E:/best.pt")  # change to your model path
-video_path = "E:/output_2025-04-01_16-56-10.mp4"
+model = YOLO("best.pt")  # change to your model path
+video_path = "output_2025-04-01_16-56-10.mp4"
 
 # Performance optimizations for Raspberry Pi 5
 FRAME_SKIP = 0  # Process EVERY frame for accuracy

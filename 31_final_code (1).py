@@ -12,8 +12,8 @@ import queue
 import time
 
 # ----------------- CONFIG -----------------
-MODEL_PATH = "E:/best.pt"        # update if needed
-video_path = "E:/output_2025-04-01_15-06-09.mp4"                 # 0 = default camera, or path to file
+MODEL_PATH = "best.pt"        # update if needed
+video_path = "output_2025-04-01_15-06-09.mp4"                 # 0 = default camera, or path to file
 
 # Inference resolution (smaller = faster). Keep aspect ratio roughly same as camera.
 INFER_W, INFER_H = 320, 320    # safe, fast. Try 416x416 if you want slightly better accuracy.
