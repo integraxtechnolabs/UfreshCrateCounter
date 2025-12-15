@@ -10,7 +10,7 @@ from datetime import datetime, date
 import pandas as pd
 
 # ----------------- YOLO + ByteTrack Setup -----------------
-model = YOLO("E:/best.pt")  # change to your model path
+model = YOLO("best.pt")  # change to your model path
 video_path = "output_2025-04-01_15-21-09.mp4"
 
 # Your categories
